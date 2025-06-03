@@ -18,12 +18,12 @@ https://huggingface.co/distilbert/distilbert-base-uncased-finetuned-sst-2-englis
 •	aiohttp and asyncio (for parallel requests demo)
 
 4. Project Structure
-├── main.py                 # FastAPI app with /predict endpoint
-├── Dockerfile             # Instructions for containerizing the app
-├── requirements.txt       # Python dependencies
-├── .dockerignore          # Files to exclude from Docker builds
-├── parallel_requests_demo.ipynb  # Notebook to test multiple requests
-└── README.md              # Project documentation
+   main.py                 # FastAPI app with /predict endpoint
+   Dockerfile             # Instructions for containerizing the app
+   requirements.txt       # Python dependencies
+   .dockerignore          # Files to exclude from Docker builds
+   parallel_requests_demo.ipynb  # Notebook to test multiple requests
+   README.md              # Project documentation
 
 5. How to Run the Server
 Using Docker:
